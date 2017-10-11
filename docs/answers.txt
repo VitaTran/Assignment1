@@ -1,0 +1,25 @@
+5a. Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 376 bytes | 376.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/VitaTran/Assignment1.git
+   a790ed7..1b25a54  master -> master
+
+5b. 9 commits have been done to the respository by anyone including me.  The git command used to get this information is "git rev-list --all --count".
+
+5c. The file .gitignore was last modified "Date:   Wed Sep 27 16:31:42 2017".  The git command used was "git log --follow .gitignore".
+
+5d.commit cb30d72a3d94c108f393c163a35c1cc9bf18ffca
+commit 36a8e55e4bbdd171ab57d979e1a802d740f2db9b
+
+5e. Branches are important to use for many reasons. One of the reasons is so that you can test code without directly affecting the master branch. Once you test and debug your code on a different branch, it is good to then merge the branches.  Another reason branching is important is that if multiple people are working at once on a project it is easy to have many bugs and you do not want those bugs in the master branch. 
+
+5f. Git log is used for seeing commit logs.  Git status shows the working directory/tree status. It is usually used to see if there is anything that is needed to commit.
+
+5g. You would use the "git log --follow Weapon.h" command to see commits where "Weapon.h" was one of the commited files.
+
+5h. You would use the "git log --grep="file" command to see the commits whose commit message contains the word "file".
+
+5i. Inheritance is the concept of a parent class/base class passing on properties and attributes to a child class/subclass.  The subclass inherits those methods and may also have their own additional properties and attributes.  Polymorphism is the concept of a subclass having it's own unique properties but the subclass also still shares functionalities with the parent class.  Encapsulation is when the developer purposely hides the class's internal data from a user so that the user is not able to modify or access certain information. 
